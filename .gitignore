@@ -1,0 +1,47 @@
+# --- Sprint-Layout ---
+*.bak
+
+# --- Windows / System ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Visual Studio / Atmel Studio ---
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.cache
+*.ilk
+*.log
+[Bb]in/
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+
+# --- KiCAD ---
+*-backups/
+*.kicad_pcb-bak
+*.sch-bak
+fp-info-cache
+
+# --- Microcontroller Extra (AVR) ---
+*.elf
+*.lst
+*.map
+*.sym
+*.lss
