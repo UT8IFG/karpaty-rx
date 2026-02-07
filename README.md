@@ -33,6 +33,11 @@
 
 [![Плата №2 Фотовид](pcb/original/img/karpaty-rx-pcb2-rfamp-1st-mixer-orig-preview.png)](pcb/original/karpaty-rx-pcb2-rfamp-1st-mixer-orig.lay6)
 
+### Плата №5 (Повторители + удвоитель частоты)
+Плата содержит повторители и удвоитель частоты ГПД.
+
+[![Плата №5 Фотовид](pcb/original/img/karpaty-rx-pcb5-buffer-freq-doubler-orig-preview.png)](pcb/original/karpaty-rx-pcb5-buffer-freq-doubler-orig.lay6)
+
 ### Плата №6 (Основная плата)
 Центральный блок приемника, содержащий второй смеситель, тракт ПЧ, опорные генераторы, АРУ, детектор и УНЧ.
 
