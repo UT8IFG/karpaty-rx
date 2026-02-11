@@ -58,7 +58,7 @@
 ### Плата №7 (Блок питания)
 Плата источника питания. Содержит выпрямитель, фильтрующие ёмкости и стабилизатор напряжения.
 
-[![Плата №7 Фотовид](pcb/original/img/karpaty-rx-pcb7-power-supply-preview.png)](pcb/original/karpaty-rx-pcb7-power-supply-orig.lay6)
+[![Плата №7 Фотовид](pcb/original/img/karpaty-rx-pcb7-power-supply-orig-preview.png)](pcb/original/karpaty-rx-pcb7-power-supply-orig.lay6)
 
 ---
 *Проект находится в стадии наполнения.*
