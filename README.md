@@ -38,7 +38,7 @@
 
 [![Плата №3 Фотовид](pcb/original/img/karpaty-rx-pcb3-vfo-orig-preview.png)](pcb/original/karpaty-rx-pcb3-vfo-orig.lay6)
 
-### Плата №4 (ГПД)
+### Плата №4
 Не является печатной платой. 
 
 Содержит подстроечные и постоянные конденсаторы, задающие границы работы ГПД на диапазонах. 
@@ -54,6 +54,11 @@
 Центральный блок приемника, содержащий второй смеситель, тракт ПЧ, опорные генераторы, АРУ, детектор и УНЧ.
 
 [![Плата №6 Фотовид](pcb/original/img/karpaty-rx-pcb6-mainboard-orig-preview.png)](pcb/original/karpaty-rx-pcb6-mainboard-orig.lay6)
+
+### Плата №7 (Блок питания)
+Плата источника питания. Содержит выпрямитель, фильтрующие ёмкости и стабилизатор напряжения.
+
+[![Плата №7 Фотовид](pcb/original/img/karpaty-rx-pcb7-power-supply-preview.png)](pcb/original/karpaty-rx-pcb7-power-supply-orig.lay6)
 
 ---
 *Проект находится в стадии наполнения.*
