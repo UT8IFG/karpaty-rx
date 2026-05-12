@@ -12,7 +12,8 @@
 * `/docs/original-articles/` — оригинальные сканы страниц журнала в формате JPG.
 * `/sch/` — принципиальные электрические схемы.
 * `/pcb/` — файлы печатных плат.
-* `/pcb/img` — изображения печатных плат.
+* `/pcb/mod/` — модифицированные файлы печатных плат.
+* `/pcb/*/img/` — изображения печатных плат.
 
 ## 🛠 Технические подробности
 Печатные платы оптимизированы под домашнее производство с помощью ЛУТ: крупные контактные площадки, толстые дорожки, минимальный диаметр отверстий - 0,8 мм. 
@@ -31,12 +32,12 @@
 ### Плата №2 (УРЧ + первый смеситель)
 На плате расположен усилитель радиочастоты, согласующий каскад и первый смеситель.
 
-[![Плата №2 Фотовид](pcb/original/img/karpaty-rx-pcb2-rfamp-1st-mixer-orig-preview.png)](pcb/original/karpaty-rx-pcb2-rfamp-1st-mixer-orig.lay6)
+<a href="pcb/original/karpaty-rx-pcb2-rfamp-1st-mixer-orig.lay6"><img src="pcb/original/img/karpaty-rx-pcb2-rfamp-1st-mixer-orig-preview.png" alt="Фотовид платы УРЧ и первого смесителя приёмника Карпаты" width="80%"></a>
 
 ### Плата №3 (ГПД)
 Плата генератора плавного диапазона (ГПД).
 
-[![Плата №3 Фотовид](pcb/original/img/karpaty-rx-pcb3-vfo-orig-preview.png)](pcb/original/karpaty-rx-pcb3-vfo-orig.lay6)
+<a href="pcb/original/karpaty-rx-pcb3-vfo-orig.lay6"><img src="pcb/original/img/karpaty-rx-pcb3-vfo-orig-preview.png" alt="Фотовид платы ГПД приёмника Карпаты" width="40%"></a>
 
 ### Плата №4
 Не является печатной платой. 
@@ -48,7 +49,7 @@
 ### Плата №5 (Повторители + удвоитель частоты)
 Плата содержит повторители и удвоитель частоты ГПД.
 
-[![Плата №5 Фотовид](pcb/original/img/karpaty-rx-pcb5-buffer-freq-doubler-orig-preview.png)](pcb/original/karpaty-rx-pcb5-buffer-freq-doubler-orig.lay6)
+<a href="pcb/original/karpaty-rx-pcb5-buffer-freq-doubler-orig.lay6"><img src="pcb/original/img/karpaty-rx-pcb5-buffer-freq-doubler-orig-preview.png" alt="Фотовид платы повторителей и удвоения частоты приёмника Карпаты" width="80%"></a>
 
 ### Плата №6 (Основная плата)
 Центральный блок приемника, содержащий второй смеситель, тракт ПЧ, опорные генераторы, АРУ, детектор и УНЧ.
@@ -58,7 +59,41 @@
 ### Плата №7 (Блок питания)
 Плата источника питания. Содержит выпрямитель, фильтрующие ёмкости и стабилизатор напряжения.
 
-[![Плата №7 Фотовид](pcb/original/img/karpaty-rx-pcb7-power-supply-orig-preview.png)](pcb/original/karpaty-rx-pcb7-power-supply-orig.lay6)
+<a href="pcb/original/karpaty-rx-pcb7-power-supply-orig.lay6"><img src="pcb/original/img/karpaty-rx-pcb7-power-supply-orig-preview.png" alt="Фотовид платы блока питания приёмника Карпаты" width="40%"></a>
+
+## 🔧 Модифицированные печатные платы
+Модификации оригинальных печатных плат под имеющиеся радиокомпоненты или из других соображений. 
+
+### Плата №1 (ДПФ)
+Модификация платы под имеющиеся каркасы контурных катушек. 
+
+Фото каркасов:
+<img src="pcb/mod/img/karpaty-rx-pcb1-bpf-mod-components.jpg" alt="Фото радиокомпонентов модифицированной платы ДПФ приёмника Карпаты">
+
+Плата:
+<a href="pcb/mod/karpaty-rx-pcb1-bpf-mod.lay6"><img src="pcb/mod/img/karpaty-rx-pcb1-bpf-mod-preview.png" alt="Фотовид модифицированной платы ДПФ приёмника Карпаты"></a>
+
+### Плата №6 (Основная плата)
+Модификация платы под имеющиеся радиокомпоненты. 
+
+Список основных изменений:
+* заменены посадочные места и шелкогарфия контуров полосового фильтра L1-L5;
+* C35, C37: добавлены посадочные места под ниобиевые конденсаторы К53-4;
+* C1, C3, C5: добавлены посадочные места под КСО-1;
+* С2, С4: добавлены посадочные места под КД-1-3;
+* C13, C14: добавлены посадочные места под КТ-2;
+* C31, C38 уменьшен размер под дисковый керамический;
+* VT10, VT11: добавлены радиаторы и крепеж;
+* Удалены отверстия крепления радиатора;
+* С45 заменен на К50-6 200 мкФ х 25В, старое посадочное место сохранено.
+
+Фото компонентов:
+<img src="pcb/mod/img/karpaty-rx-pcb6-mainboard-mod-components.jpg" alt="Фото радиокомпонентов модифицированной основной платы приёмника Карпаты">
+
+Плата:
+<a href="pcb/mod/karpaty-rx-pcb6-mainboard-mod.lay6"><img src="pcb/mod/img/karpaty-rx-pcb6-mainboard-mod-preview.png" alt="Фотовид модифицированной платы ДПФ приёмника Карпаты"></a>
+
+<a href="pcb/mod/img/karpaty-rx-pcb6-mainboard-mod-compare-preview.gif">Анимированное изображение</a> внесённых изменений относительно оригинальной платы.
 
 ---
 *Проект находится в стадии наполнения.*
